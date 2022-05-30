@@ -1,0 +1,22 @@
+<div class="top" *ngIf="visible">
+  <app-header></app-header>
+  <div class="c1">
+    <div class="c2">
+      <h1 class="c21">Kidney Health</h1>
+      <p class="c22">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus, in? Ducimus ullam natus
+        suscipit
+        repellendus vel ipsum. Assumenda inventore, id obcaecati et dignissimos praesentium, nisi error blanditiis amet,
+        dolorum incidunt.</p>
+        <button class="btn1" (click)="Goforit()">GET REPORT</button>
+    </div>
+    <div class="c3">
+      <img src="../assets/images/undraw_doctors_hwty (1).svg" alt="" srcset="" class="d1">
+      <div class="cont1">
+        <i class="fa fa-phone lit"></i>
+     </div>
+    </div>
+  </div>
+</div>
+<div class="top1" *ngIf="!visible">
+  <router-outlet></router-outlet>
+</div>

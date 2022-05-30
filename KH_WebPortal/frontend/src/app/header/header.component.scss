@@ -1,0 +1,29 @@
+// .navbar{
+//     box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+// }
+.navbar-brand{
+    font-size: 3rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    font-family: 'Boogaloo', cursive;
+}
+.attr{
+    margin-left: 1.6rem;
+    width: 84px;
+    height: 84px;
+}
+#navbarSupportedContent{
+    margin-left: 40rem;
+    padding-top: 0.8rem;
+    .nav-item{
+       padding-left: 3rem;
+       font-size: 1rem;
+       .nav-link{
+           color: black;
+           font-weight: bold;
+       }
+       .nav-link:hover{
+           color: #7465c7;
+       }
+    }
+}
